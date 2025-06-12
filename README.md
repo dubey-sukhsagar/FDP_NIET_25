@@ -17,14 +17,13 @@ This notebook introduces **Grover's search algorithm**, a fundamental quantum al
 
 ---
 
-### 2. `sbox_quantum_simulation.ipynb`
+### 2. `Simulation of AES S-Box (C1).ipynb`
 This notebook simulates the **S-box (Substitution Box)** component of a cryptographic cipher using quantum gates.
 
 **Contents:**
 - Reversible logic circuit design for a 4-bit S-box
 - Implementation using basic quantum gates (Toffoli, CNOT, NOT)
 - Truth table verification and analysis
-- Discussion on quantum cost and depth
 
 ---
 
@@ -44,4 +43,4 @@ This notebook demonstrates a **quantum attack on simplified AES** using Grover's
 To run the notebooks, install the following Python packages:
 
 ```bash
-pip install qiskit matplotlib numpy
+pip install qiskit matplotlib numpy qiskit_aer
